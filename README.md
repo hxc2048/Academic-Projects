@@ -101,7 +101,8 @@ Note:	*p<0.1; **p<0.05; ***p<0.01
 From the results above, it is statistically significant that the number of players has increased by 0.6% every year. The positive coefficient on male suggests that males play more video games than females. Though, the negative coefficient on the male and time interaction term shows that over time male gamers are decreasing by 0.3% every year.
 Also, over the years, the number of Asian gamers has increased by 0.2% every year. African American gamers have decreased by 0.1% each year. Surprisingly, the number of young gamers – people aged 15 to 25 has decreased by 0.3% each year.
 
- ![](images/github%20pic1.png)
+ ![github pic1](https://user-images.githubusercontent.com/51522957/59155448-816d8a80-8a4f-11e9-892c-24db2fe7d886.png)
+
 
 
 
