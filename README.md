@@ -1,13 +1,15 @@
 # Video games industry analysis
-
-Video Games Industry Growth Analysis
 Introduction:
 The video games industry has seen a considerable growth in the past two decades. Video games stocks have been on quite a tear over the past 5 years. According to a report from Newzoo’s Global Games market, gamers around the world would likely to spend a $130 billion on games. Newzoo is a market research firm that tracks and usage of video games, mobiles and esports. This figure represents a 13.3 percent increase in revenue from previous year. Video games engagement continues to grow and that could mean some good returns for the investors interested in this market, Samantha Greenberg, chief investment officer and managing partner at Margate capital management, told CNBC.
+
 Economic Questions:
 The growth in the industry revenue could be attributed to increase in the number of gamers along the past two decades. Advancement in technology, creativity, better graphics, game streaming services could be the key factors which makes the game content appealing to every type of gamer with different preferences thus increasing the number of gamers as the industry evolves. According to a report from Newzoo, there are around 2.2 billion active gamers in the world.
+
  This paper sought to answer the following questions: (1) How the number of gamers has evolved over the years? (2) What gender type plays more video games? (3) How the number of gamers from different races have evolved over the years? (4) How the gamers growth is like across different age groups?
+
 Data Source:
 The data for the analysis has been obtained from the Bureau of Labor Statistics – United States Department of Labor. The American Time Use Survey (ATUS) measures the amount of time people spend doing various activities such as paid work, childcare, volunteering and socializing which are used for economic research. The ATUS datafiles includes information for over 190,000 respondents from 2003 to 2017. 
+
 Data Overview:
 The data that we are interested in is the ATUS summary data file which contains the information about total number of minutes each respondent spent doing each activity. The variable TUCASEID is a unique identifier for each respondent. ‘t120308’ is our variable of interest that has the number of minutes people spent playing videogames. 
 Total observations	191558
@@ -98,6 +100,8 @@ Note:	*p<0.1; **p<0.05; ***p<0.01
 
 From the results above, it is statistically significant that the number of players has increased by 0.6% every year. The positive coefficient on male suggests that males play more video games than females. Though, the negative coefficient on the male and time interaction term shows that over time male gamers are decreasing by 0.3% every year.
 Also, over the years, the number of Asian gamers has increased by 0.2% every year. African American gamers have decreased by 0.1% each year. Surprisingly, the number of young gamers – people aged 15 to 25 has decreased by 0.3% each year.
+
+
 
 
  
