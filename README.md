@@ -18,86 +18,11 @@ Females interviewed	107579
  
 Modelling approach:
 This analysis involves the use of linear probability model as our focus is to find how the gamers have increased over the years. It involved a creation of dummy dependent variable for the respondents who played videogames (t120308>0). Then dummy variables for male, different races, different age groups were created. Three models were estimated by regressing game dummy on sex, races, age groups. The results are found below.
-Results:
-Regression results
-
-	Dependent variable:
+![R result1](https://user-images.githubusercontent.com/51522957/59155544-60a63480-8a51-11e9-96d1-c492638b1f03.JPG)
+![r results2](https://user-images.githubusercontent.com/51522957/59155550-76b3f500-8a51-11e9-8ab9-5c59b55da80b.JPG)
+![r results3](https://user-images.githubusercontent.com/51522957/59155555-7e739980-8a51-11e9-8564-eac1051a5747.JPG)
+![r results 4](https://user-images.githubusercontent.com/51522957/59155559-84697a80-8a51-11e9-87c2-9cd378cda252.JPG)
 	
-	Videogame_dum
-	(1)	(2)	(3)
-
-years	0.005***	0.005***	0.006***
-	(0.0002)	(0.0002)	(0.001)
-			
-male	6.450***	6.440***	6.395***
-	(0.649)	(0.646)	(0.647)
-			
-time.male	-0.003***	-0.003***	-0.003***
-	(0.0003)	(0.0003)	(0.0003)
-			
-black		-0.040***	2.635***
-		(0.002)	(0.951)
-			
-Alnative		-0.032***	-0.032***
-		(0.008)	(0.008)
-			
-Asian		0.060***	-3.828**
-		(0.004)	(1.812)
-			
-others		0.007	4.397*
-		(0.006)	(2.632)
-			
-aged_15to25		0.100***	6.246***
-		(0.003)	(1.506)
-			
-aged_26to35		0.049***	2.557*
-		(0.003)	(1.402)
-			
-aged_36to45		0.055***	1.549
-		(0.003)	(1.366)
-			
-aged_46to55		0.050***	0.952
-		(0.003)	(1.390)
-			
-Aged_56to75		0.048***	-1.518
-		(0.003)	(1.321)
-			
-time.black			-0.001***
-			(0.0005)
-			
-time.Asian			0.002**
-			(0.001)
-			
-time.others			-0.002*
-			(0.001)
-			
-time.aged_15to25			-0.003***
-			(0.001)
-			
-time.aged_26to35			-0.001*
-			(0.001)
-			
-time.aged 36to45			-0.001
-			(0.001)
-			
-time.aged_46to55			-0.0004
-			(0.001)
-			
-time.aged_56to75			0.001
-			(0.001)
-			
-Constant	-9.544***	-10.144***	-11.593***
-	(0.431)	(0.430)	(1.188)
-			
-
-Observations	191,558	191,558	191,558
-R2	0.003	0.012	0.012
-Adjusted R2	0.003	0.012	0.012
-Residual Std. Error	0.307 (df = 191554)	0.305 (df = 191545)	0.305 (df = 191537)
-F Statistic	199.353*** (df = 3; 191554)	191.642*** (df = 12; 191545)	118.247*** (df = 20; 191537)
-
-Note:	*p<0.1; **p<0.05; ***p<0.01
-
 From the results above, it is statistically significant that the number of players has increased by 0.6% every year. The positive coefficient on male suggests that males play more video games than females. Though, the negative coefficient on the male and time interaction term shows that over time male gamers are decreasing by 0.3% every year.
 Also, over the years, the number of Asian gamers has increased by 0.2% every year. African American gamers have decreased by 0.1% each year. Surprisingly, the number of young gamers – people aged 15 to 25 has decreased by 0.3% each year.
 
