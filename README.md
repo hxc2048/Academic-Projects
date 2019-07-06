@@ -19,6 +19,7 @@ The data that we are interested in is the ATUS summary data file which contains 
 
 ### Modelling approach:
 This analysis involves the use of linear probability model as our focus is to find how the gamers have increased over the years. It involved a creation of dummy dependent variable for the respondents who played videogames (t120308>0). Then dummy variables for male, different races, different age groups were created. Three models were estimated by regressing game dummy on sex, races, age groups. The results are found below.
+
 ![R result1](https://user-images.githubusercontent.com/51522957/59155544-60a63480-8a51-11e9-96d1-c492638b1f03.JPG)
 ![r results2](https://user-images.githubusercontent.com/51522957/59155550-76b3f500-8a51-11e9-8ab9-5c59b55da80b.JPG)
 ![r results3](https://user-images.githubusercontent.com/51522957/59155555-7e739980-8a51-11e9-8564-eac1051a5747.JPG)
