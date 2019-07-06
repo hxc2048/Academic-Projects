@@ -18,7 +18,8 @@ The data for the analysis has been obtained from the Bureau of Labor Statistics 
 The data that we are interested in is the ATUS summary data file which contains the information about total number of minutes each respondent spent doing each activity. The variable TUCASEID is a unique identifier for each respondent. ‘t120308’ is our variable of interest that has the number of minutes people spent playing videogames. 
 
 ### Modelling approach:
-This analysis involves the use of linear probability model as our focus is to find how the gamers have increased over the years. It involved a creation of dummy dependent variable for the respondents who played videogames (t120308>0). Then dummy variables for male, different races, different age groups were created. Three models were estimated by regressing game dummy on sex, races, age groups. The results are found below.
+This analysis involves the use of linear probability model as our focus is to find how the gamers have increased over the years. It involved a creation of dummy dependent variable for the respondents who played videogames (t120308>0). Then dummy variables for male, different races, different age groups were created. The appropriate model for our analysis is estimated by regressing game dummy on sex, races, age groups. The results are below
+
 
 ![R result1](https://user-images.githubusercontent.com/51522957/59155544-60a63480-8a51-11e9-96d1-c492638b1f03.JPG)
 ![r results2](https://user-images.githubusercontent.com/51522957/59155550-76b3f500-8a51-11e9-8ab9-5c59b55da80b.JPG)
