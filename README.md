@@ -6,7 +6,10 @@ The video games industry has seen a considerable growth in the past two decades.
 The growth in the industry revenue could be attributed to increase in the number of gamers along the past two decades. Advancement in technology, creativity, better graphics, game streaming services could be the key factors which makes the game content appealing to every type of gamer with different preferences thus increasing the number of gamers as the industry evolves. According to a report from Newzoo, there are around 2.2 billion active gamers in the world.
 
 ### This paper sought to answer the following questions: 
- (1) How the number of gamers has evolved over the years? (2) What gender type plays more video games? (3) How the number of gamers from different races have evolved over the years? (4) How the gamers growth is like across different age groups?
+ (1) How the number of gamers has evolved over the years? 
+ (2) What gender type plays more video games? 
+ (3) How the number of gamers from different races have evolved over the years? 
+ (4) How the gamers growth is like across different age groups?
 
 ### Data Source:
 The data for the analysis has been obtained from the Bureau of Labor Statistics – United States Department of Labor. The American Time Use Survey (ATUS) measures the amount of time people spend doing various activities such as paid work, childcare, volunteering and socializing which are used for economic research. The ATUS datafiles includes information for over 190,000 respondents from 2003 to 2017. 
