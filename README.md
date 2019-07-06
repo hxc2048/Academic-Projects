@@ -8,16 +8,16 @@ The growth in the industry revenue could be attributed to increase in the number
 ### This paper sought to answer the following questions: 
  (1) How the number of gamers has evolved over the years? (2) What gender type plays more video games? (3) How the number of gamers from different races have evolved over the years? (4) How the gamers growth is like across different age groups?
 
-#### Data Source:
+### Data Source:
 The data for the analysis has been obtained from the Bureau of Labor Statistics – United States Department of Labor. The American Time Use Survey (ATUS) measures the amount of time people spend doing various activities such as paid work, childcare, volunteering and socializing which are used for economic research. The ATUS datafiles includes information for over 190,000 respondents from 2003 to 2017. 
 
-#### Data Overview:
+### Data Overview:
 The data that we are interested in is the ATUS summary data file which contains the information about total number of minutes each respondent spent doing each activity. The variable TUCASEID is a unique identifier for each respondent. ‘t120308’ is our variable of interest that has the number of minutes people spent playing videogames. 
 Total observations	191558
 Males interviewed	83979
 Females interviewed	107579
  
-#### Modelling approach:
+### Modelling approach:
 This analysis involves the use of linear probability model as our focus is to find how the gamers have increased over the years. It involved a creation of dummy dependent variable for the respondents who played videogames (t120308>0). Then dummy variables for male, different races, different age groups were created. Three models were estimated by regressing game dummy on sex, races, age groups. The results are found below.
 ![R result1](https://user-images.githubusercontent.com/51522957/59155544-60a63480-8a51-11e9-96d1-c492638b1f03.JPG)
 ![r results2](https://user-images.githubusercontent.com/51522957/59155550-76b3f500-8a51-11e9-8ab9-5c59b55da80b.JPG)
@@ -33,7 +33,7 @@ Also, over the years, the number of Asian gamers has increased by 0.2% every yea
 
 
  
-#### Conclusion:
+### Conclusion:
 It is evident form the above results that the number of gamers has increased over the years which has attributed to the increase in revenue in the video game industry. With the advancements in technology it is expected to grow further. With currently 2.2 billion gamers, a 0.6% increase a year would add 13.2 million gamers each year.
 
 
@@ -43,7 +43,7 @@ It is evident form the above results that the number of gamers has increased ove
 
 
 
-References:
+### References:
 https://www.bls.gov/tus/datafiles_0317.htm
 https://newzoo.com/insights/articles/newzoo-2017-report-insights-into-the-108-9-billion-global-games-market/
 https://www.cnbc.com/2018/07/18/video-game-industry-is-booming-with-continued-revenue.html
